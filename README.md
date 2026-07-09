@@ -63,7 +63,7 @@ This project answers the following questions:
 
 ## Repository Structure
 
----
+```
 heart-disease-sql-analysis/
 │
 ├── README.md
@@ -71,7 +71,7 @@ heart-disease-sql-analysis/
 ├── dataset/
 │   └── heart_disease.csv
 └── screenshots/
----
+```
 
 ---
 

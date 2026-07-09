@@ -1,40 +1,42 @@
 # heart-disease-sql-analysis
 
-## Project Overview
+## Overview
 
-This project explores a heart disease dataset using Microsoft SQL Server.
+This project analyzes a heart disease dataset using Microsoft SQL Server.
 
-The objective was to practice SQL while answering real business and healthcare-related questions through exploratory data analysis.
-
----
-
-## Dataset
-
-- Dataset: Heart Disease Dataset (Kaggle)
-- Records: 297
-- Tool: Microsoft SQL Server Management Studio (SSMS)
+The goal was to practice SQL by answering real business and healthcare-related questions through exploratory data analysis (EDA).
 
 ---
 
-## Objectives
+## Dataset Information
 
-- Understand the patient population
-- Compare patients with and without heart disease
-- Analyze clinical risk factors
-- Investigate symptoms and diagnostic findings
-- Explore patterns among female patients
+- Records: 297 patients
+- Database: Microsoft SQL Server
+- Query Tool: SQL Server Management Studio (SSMS)
 
 ---
 
-## SQL Concepts Used
+## Business Questions
+
+This project answers the following questions:
+
+- How many patients have heart disease?
+- Do patients with heart disease tend to be older?
+- Does cholesterol differ between patients with and without heart disease?
+- Which clinical factors show the largest differences?
+- How do female patients compare with the overall population?
+
+---
+
+## SQL Skills Used
 
 - SELECT
 - WHERE
+- GROUP BY
 - COUNT()
 - AVG()
 - SUM()
 - CASE
-- GROUP BY
 - Aggregate Functions
 - Aliases
 
@@ -42,27 +44,36 @@ The objective was to practice SQL while answering real business and healthcare-r
 
 ## Key Findings
 
-- Approximately 46% of patients were diagnosed with heart disease.
-- Patients with heart disease were older on average.
-- Cholesterol was only slightly higher among patients with heart disease.
-- ST depression and the number of major vessels showed larger differences between groups.
-- Asymptomatic chest pain was the most common chest pain type among patients with heart disease.
-- Female patients with heart disease showed slightly higher average age and cholesterol, although the female sample size was relatively small.
+- Approximately 46% of patients in the dataset have heart disease.
+- Patients with heart disease are older on average.
+- Cholesterol levels are only slightly higher among patients with heart disease.
+- ST depression and the number of major vessels show the largest differences between groups.
+- Asymptomatic chest pain is the most common chest pain type among patients with heart disease.
+- Female patients with heart disease have slightly higher average age and cholesterol, although the female sample size is relatively small.
 
 ---
 
-## Files
+## Repository Structure
 
-- `queries.sql` – SQL queries used throughout the analysis.
-- `dataset/` – Dataset used in the project.
-- `screenshots/` – Selected query outputs.
+```
+heart-disease-sql-analysis/
+│
+├── README.md
+├── queries.sql
+├── dataset/
+│   └── heart_disease.csv
+└── screenshots/
+```
 
 ---
 
-## Skills Demonstrated
+## What I Learned
 
-- SQL querying
-- Exploratory Data Analysis (EDA)
-- Business Question Development
-- Data Interpretation
-- Documentation
+Through this project I practiced:
+
+- Writing SQL queries for data analysis
+- Using aggregate functions to summarize data
+- Comparing different groups using SQL
+- Translating business questions into SQL queries
+- Writing analytical insights from query results
+- Organizing a project for GitHub

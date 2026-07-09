@@ -70,7 +70,6 @@ heart-disease-sql-analysis/
 ├── dataset/
 │   └── heart_disease.csv
 └── screenshots/
-```
 
 ---
 

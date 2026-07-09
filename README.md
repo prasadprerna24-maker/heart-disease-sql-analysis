@@ -53,9 +53,16 @@ This project answers the following questions:
 
 ---
 
+## Tools Used
+
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+- GitHub
+
+---
+
 ## Repository Structure
 
-```
 heart-disease-sql-analysis/
 │
 ├── README.md
